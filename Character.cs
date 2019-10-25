@@ -42,8 +42,9 @@ namespace PairProgramming_Polymorphism
 
         }
 
-        public void Draw()
+        public virtual void Draw()
         {
+            Console.WriteLine("\n*******************");
             Console.WriteLine("Sprite: " + sprite);
             Console.WriteLine("X: " + currentX);
             Console.WriteLine("Y: " + currentY);

@@ -1,9 +1,16 @@
+using System;
 namespace PairProgramming_Polymorphism
 {
     public class Player : Character
     {
         
         int experience;
+
+        public int Experience
+        {
+            get { return experience; }
+            set { experience = value; }
+        }
 
         public Player(int currentX, int currentY, string name, int health, int armour, int damage, string sprite)
         {
@@ -17,6 +24,11 @@ namespace PairProgramming_Polymorphism
             this.sprite = sprite;
         }
 
+        public override void Draw()
+        {
+            base.Draw();
+            Console.WriteLine("Experience: " + experience);
+        }
 
         
         /*public void ManualMove()

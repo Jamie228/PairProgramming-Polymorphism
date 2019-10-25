@@ -5,6 +5,7 @@ namespace PairProgramming_Polymorphism
 {
     public class Game
     {
+        const int DELAY = 300;
          Player player1 = new Player(0, 0, "Bob", 100, 45, 20, "!");
          Monster monster1 = new Monster(10, 10, "Dr Fear", 100, 50, 30, "*");
         public void Menu()
@@ -45,7 +46,7 @@ namespace PairProgramming_Polymorphism
             {
                 Update();
                 Draw();
-                Thread.Sleep(100);
+                Thread.Sleep(DELAY);
             }
         }
 
@@ -58,7 +59,7 @@ namespace PairProgramming_Polymorphism
 
         public void Update()
         {
-
+            player1.Experience += 1;
         }
 
 

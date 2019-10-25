@@ -6,6 +6,7 @@ namespace PairProgramming_Polymorphism
     {
         static void Main(string[] args)
         {
+            Console.CursorVisible = false;
             Game game = new Game();
             game.Menu();
 
