@@ -6,7 +6,7 @@ namespace PairProgramming_Polymorphism
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Elliot!");
         }
     }
 }
