@@ -2,7 +2,7 @@ using System;
 
 namespace PairProgramming_Polymorphism
 {
-    class Character
+    public class Character
     {
         int currentX;
         int currentY;
