@@ -5,24 +5,14 @@ namespace PairProgramming_Polymorphism
         
         int experience;
 
-        public Player(int currentX, int currentY, string name, int health, int armour, int damage, char sprite)
+        public Player(int currentX, int currentY, string name, int health, int armour, int damage, string sprite)
         {
             this.name = name;
         }
 
 
-
-
-
-
-
-
-
-
-
-
         
-        public void ManualMove()
+        /*public void ManualMove()
         {
                 
             if(keypressed == keychar"")
@@ -44,7 +34,9 @@ namespace PairProgramming_Polymorphism
             {
             MoveRight();
             }
-        }
+        } */
+
+        
 
 
 

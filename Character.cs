@@ -10,7 +10,7 @@ namespace PairProgramming_Polymorphism
         public int health;
         public int armour;
         public int damage;
-        public char sprite;
+        public string sprite;
 
         public void MoveUp()
         {
@@ -44,7 +44,13 @@ namespace PairProgramming_Polymorphism
 
         public void Draw()
         {
-
+            Console.WriteLine("Sprite: " + sprite);
+            Console.WriteLine("X: " + currentX);
+            Console.WriteLine("Y: " + currentY);
+            Console.WriteLine("Health: " + health);
+            Console.WriteLine("Armour: " + armour);
+            Console.WriteLine("Name: " + name);
+            Console.WriteLine("Damage: " + damage);
         }
     }
 }
