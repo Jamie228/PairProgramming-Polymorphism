@@ -13,7 +13,10 @@ namespace PairProgramming_Polymorphism
         {
             items.Add("stick");
             foreach (string item in items)
-        {
+            {
+                
+            }
+        }
             
      
         
