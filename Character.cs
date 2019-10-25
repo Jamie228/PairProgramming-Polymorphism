@@ -2,15 +2,15 @@ using System;
 
 namespace PairProgramming_Polymorphism
 {
-    public class Character
+    public class Character 
     {
-        public int currentX;
-        public int currentY;
-        public string name;
-        public int health;
-        public int armour;
-        public int damage;
-        public string sprite;
+        protected int currentX;
+        protected int currentY;
+        protected string name;
+        protected int health;
+        protected int armour;
+        protected int damage;
+        protected string sprite;
 
         public void MoveUp()
         {
