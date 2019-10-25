@@ -11,6 +11,7 @@ namespace PairProgramming_Polymorphism
             player1.Draw();
             Monster monster1 = new Monster(10, 10, "Dr Fear", 100, 50, 30, "*");
             monster1.Draw();
+            
 
         }
            

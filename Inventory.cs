@@ -1,16 +1,24 @@
+using System;
+using System.Collections.Generic;
+
 namespace PairProgramming_Polymorphism
 {
-   /* public class Inventory
+   public class Inventory
     {
         public string collection;
 
-        var items = new List<string>();
-        items.Add("stick");
+        List<string> items = new List<string>();
 
-        foreach (var items in Inventory)
+        public Inventory()
+        {
+            items.Add("stick");
+            foreach (string item in items)
         {
             
-        }
+     
+        
+
+        
     
-    } */
+    } 
 } 
