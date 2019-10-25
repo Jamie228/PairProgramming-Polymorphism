@@ -1,0 +1,11 @@
+H:\GitHub\PairProgramming-Polymorphism\bin\Debug\netcoreapp2.1\PairProgramming-Polymorphism.deps.json
+H:\GitHub\PairProgramming-Polymorphism\bin\Debug\netcoreapp2.1\PairProgramming-Polymorphism.runtimeconfig.json
+H:\GitHub\PairProgramming-Polymorphism\bin\Debug\netcoreapp2.1\PairProgramming-Polymorphism.runtimeconfig.dev.json
+H:\GitHub\PairProgramming-Polymorphism\bin\Debug\netcoreapp2.1\PairProgramming-Polymorphism.dll
+H:\GitHub\PairProgramming-Polymorphism\bin\Debug\netcoreapp2.1\PairProgramming-Polymorphism.pdb
+H:\GitHub\PairProgramming-Polymorphism\obj\Debug\netcoreapp2.1\PairProgramming-Polymorphism.csprojAssemblyReference.cache
+H:\GitHub\PairProgramming-Polymorphism\obj\Debug\netcoreapp2.1\PairProgramming-Polymorphism.csproj.CoreCompileInputs.cache
+H:\GitHub\PairProgramming-Polymorphism\obj\Debug\netcoreapp2.1\PairProgramming-Polymorphism.AssemblyInfoInputs.cache
+H:\GitHub\PairProgramming-Polymorphism\obj\Debug\netcoreapp2.1\PairProgramming-Polymorphism.AssemblyInfo.cs
+H:\GitHub\PairProgramming-Polymorphism\obj\Debug\netcoreapp2.1\PairProgramming-Polymorphism.dll
+H:\GitHub\PairProgramming-Polymorphism\obj\Debug\netcoreapp2.1\PairProgramming-Polymorphism.pdb
