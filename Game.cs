@@ -1,10 +1,13 @@
 using System;
+using System.Threading;
 
 namespace PairProgramming_Polymorphism
 {
-    public static class Game
+    public class Game
     {
-        public static void Menu()
+         Player player1 = new Player(0, 0, "Bob", 100, 45, 20, "!");
+         Monster monster1 = new Monster(10, 10, "Dr Fear", 100, 50, 30, "*");
+        public void Menu()
         {
             Console.Clear();
             Console.WriteLine();
@@ -24,7 +27,7 @@ namespace PairProgramming_Polymorphism
             }
         }
 
-        public static void SettingsMenu()
+        public void SettingsMenu()
         {
             Console.Clear();
             /* Replace Between These Comments */
@@ -34,12 +37,30 @@ namespace PairProgramming_Polymorphism
             Menu();
         }
 
-        public static void Run()
+        public void Run()
         {
+           
+
             while(true)
             {
-                
+                Update();
+                Draw();
+                Thread.Sleep(100);
             }
         }
+
+        public void Draw()
+        {
+            Console.Clear();
+            player1.Draw();
+            monster1.Draw();
+        }
+
+        public void Update()
+        {
+
+        }
+
+
     }
 }
