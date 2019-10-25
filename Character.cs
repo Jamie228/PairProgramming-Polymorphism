@@ -4,13 +4,13 @@ namespace PairProgramming_Polymorphism
 {
     public class Character
     {
-        int currentX;
-        int currentY;
-        string name;
-        int health;
-        int armour;
-        int damage;
-        char sprite;
+        public int currentX;
+        public int currentY;
+        public string name;
+        public int health;
+        public int armour;
+        public int damage;
+        public char sprite;
 
         public void MoveUp()
         {
